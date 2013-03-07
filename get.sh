@@ -3,8 +3,5 @@
 # Usage:
 #   ./get.sh path/to/resource
 
-SID='SALESFORCE_SESSION_ID'
-INSTANCE='prerelna1.pre.salesforce.com'
-
-curl "https://$INSTANCE/services/data/v27.0/tooling/$1" -H "Authorization: Bearer $SID"
+curl "https://$INSTANCE_URL/services/data/v27.0/$1" -H "Authorization: Bearer $FORCE_SID"
 echo
