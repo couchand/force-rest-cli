@@ -1,0 +1,49 @@
+force-rest-cli
+==============
+
+Simple scripts to interact with the Force.com REST API from
+the command line.
+
+ * introduction
+ * reference
+ * more information
+
+introduction
+------------
+
+You must update the scripts with your instance URL.  After
+running the login script you will be able to make requests.
+
+reference
+---------
+
+ * login.sh
+
+	> ./login.sh USERNAME PASSWORD
+
+Perform username-password OAuth authentication and set an
+environment variable with the Force.com session id.
+
+You must log in before making any other requests.
+
+ * get.sh
+
+	> ./get.sh path/to/resource
+
+Makes an HTTP get request for the given API resource.
+
+Returns the JSON returned by the request.
+
+ * post.sh
+
+	> ./post.sh path/to/resource data_to_post.json HTTP_METHOD
+
+Make an HTTP post, patch or delete to the given API resource.
+Pass the specified data as the body of the request.
+
+Returns the JSON returned by the request.
+
+more information
+----------------
+
+<http://www.salesforce.com/us/developer/docs/api_rest/index.htm>
