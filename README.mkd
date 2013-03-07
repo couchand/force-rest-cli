@@ -4,11 +4,11 @@ force-rest-cli
 Simple scripts to interact with the Force.com REST API from
 the command line.
 
- * introduction
+ * getting started
  * reference
  * more information
 
-introduction
+getting started
 ------------
 
 You must update the login script with your OAuth credentials
