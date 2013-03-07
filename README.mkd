@@ -11,9 +11,9 @@ the command line.
 introduction
 ------------
 
-You must update the scripts with your OAuth credentials and
-the appropriate URLs.  Then after running the login script
-you will be able to make requests.
+You must update the login script with your OAuth credentials
+and the appropriate URLs.  Then after running the login
+script you will be able to make requests.
 
 reference
 ---------
